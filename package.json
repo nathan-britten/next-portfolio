@@ -24,7 +24,7 @@
     "typescript": "4.6.2"
   },
   "lint-staged": {
-    "**/*.ts": "tsc-files --noEmit"
+    "**/*.ts, **/*.tsx": "tsc-files --noEmit"
   },
   "husky": {
     "pre-commit": "lint-staged"
